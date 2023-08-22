@@ -28,3 +28,59 @@ body {
   background: linear-gradient(#21d4fd, #b721ff);
   border-radius: 100px;
 }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.scroll-container {
+  background: rgb(7, 7, 7);
+  width: 25rem;
+  padding: 30px;
+}
+
+.scroll-div {
+  width: 400px;
+  height: 500px;
+  background: rgb(7, 7, 7);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.scroll-object {
+  padding: 20px;
+}
+
+.index-link-container
+{
+	height: 50px;
+    width: 110px;
+    background: #ffd400;
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    font-size: medium;
+    line-height: 30px;
+}
+
+.index-link
+{
+	text-decoration: none;
+}
+
+.scrollbar-link-container 
+{
+    height: 50px;
+    width: 136px;
+    background: #ffd400;
+    position: absolute;
+    top: 15px;
+    padding: 10px;
+    font-size: medium;
+    line-height: 30px;
+    left: 10px;
+}
